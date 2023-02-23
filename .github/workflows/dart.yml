@@ -47,6 +47,9 @@ jobs:
       # - name: Run tests
       #   run: dart test
       
+      - name: Upgrade Flutter
+        run: flutter upgrade
+      
       - name: Enable desktop
         run: flutter config --enable-windows-desktop
       
