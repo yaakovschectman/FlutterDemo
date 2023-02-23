@@ -50,6 +50,9 @@ jobs:
       - name: Upgrade Flutter
         run: flutter upgrade
       
+      - name: Upgrade Pug
+        run: flutter pub upgrade
+      
       - name: Enable desktop
         run: flutter config --enable-windows-desktop
       
